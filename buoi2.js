@@ -17,12 +17,38 @@
 //3- Boolean
 //4- null
 //5- undefined
-var a
-console.log(a)
+
+//(TH1)Khi tao ra bien bang tu khoa var, let ma khong gan gia tri
+// var a
+// console.log(a)
+
+//(TH2)Goi toi thuoc tinh khong ton tai trong object
+const hai={
+    name:'nguyen van A',
+    age: 10,
+    adress: d2
+}
+console.log(hai.adress)
 //6- symbol
 
 //null: Khi nao gap null
 // var a= null
 // console.log(a)
 
-//doi tuong: object
+//3-doi tuong: object
+
+// const hai = {
+//     name:"lam hoang hai",
+//     age:10,
+//     number: 10
+    
+// }
+// console.log(hai['age'])
+
+//keyboard shortcut
+// file-Preference-keyboard shortcuts
+
+//4- Array
+// const ArrayNames =["hai","hau","lam","vanA"]
+// ArrayNames[1]="nguyen"
+// console.log(ArrayNames[0])
