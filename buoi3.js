@@ -129,6 +129,8 @@
 var arrayNames =['hai','hung','hau','huan']
 
 for(var i = 0 ; i< arrayNames.length; i++){
-
-console.log(arrayNames)
+    if(arrayNames[i]== 'huan'){
+        continue
+    }
+console.log(arrayNames[i])
 }
