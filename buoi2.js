@@ -57,10 +57,20 @@
 // Toan tu mot ngoi: a+b, a-b, axb
 //Toan tu hai ngoi: a++, a--, ++a, --a
 //Toan tu ba ngoi: dieukien? true: false
-var a = 5;
-var b = 10;
+// var a = 5;
+// var b = 10;
 
-console.log(a++)
-console.log(b)
-console.log(a+b)
-console.log(++a)
+// //console.log(a++)
+// console.log(b)
+// console.log(a+b)
+// console.log(++a)
+
+//(TH3) Phuong thuc ko co return 
+// hoac return ve mot doi tuong chua khoi tao
+
+//  function showName (name){
+//          console.log(name)
+//          return name;
+//      }
+    
+//     console.log(showName('lam hoang hai'))
