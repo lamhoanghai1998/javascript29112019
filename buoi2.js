@@ -23,12 +23,12 @@
 // console.log(a)
 
 //(TH2)Goi toi thuoc tinh khong ton tai trong object
-const hai={
-    name:'nguyen van A',
-    age: 10,
-    adress: d2
-}
-console.log(hai.adress)
+// const hai={
+//     name:'nguyen van A',
+//     age: 10,
+    
+// }
+// console.log(hai.adress)
 //6- symbol
 
 //null: Khi nao gap null
@@ -52,3 +52,15 @@ console.log(hai.adress)
 // const ArrayNames =["hai","hau","lam","vanA"]
 // ArrayNames[1]="nguyen"
 // console.log(ArrayNames[0])
+
+//5- Toan tu => a + b
+// Toan tu mot ngoi: a+b, a-b, axb
+//Toan tu hai ngoi: a++, a--, ++a, --a
+//Toan tu ba ngoi: dieukien? true: false
+var a = 5;
+var b = 10;
+
+console.log(a++)
+console.log(b)
+console.log(a+b)
+console.log(++a)
