@@ -126,11 +126,91 @@
 
 
 // 11. Vong lap
-var arrayNames =['hai','hung','hau','huan']
+//var arrayNames =['hai','hung','hau','huan']
 
-for(var i = 0 ; i< arrayNames.length; i++){
-    if(arrayNames[i]== 'huan'){
-        continue
+// for(var i = 0 ; i< arrayNames.length; i++){
+//     if(arrayNames[i]== 'huan'){
+//         continue
+//     }
+// console.log(arrayNames[i])
+//}
+
+// for(var value of arrayNames){
+//     console.log(value)
+// }
+
+
+//Su dung vong lap for...of  de tinh tich cua cac phan tu trong ham
+
+// function multiply(arr){
+//     var ketqua =1
+//     for(var value of arr){
+//         ketqua *= value
+//     }
+//     return ketqua
+
+// }
+// console.log(multiply([1,2,3]));//expected:6
+
+
+
+// const hai={
+//     name:"lam hoang hai",
+//     age : 21,
+//     date :1998
+// }
+
+// for(var key in hai){
+//     console.log(key)
+// }
+
+
+var apartment = {
+    bedroom: {
+      area: 20,
+      bed: {
+        type: 'twin-bed',
+        price: 100
+      }
+    
     }
-console.log(arrayNames[i])
-}
+  };
+  //TH1
+//   function getkey(object){
+//     for(var key in object){
+//     console.log(key)
+//         for(var key1 in object[key]){
+//         console.log(key1)
+//             for(var key2 in object[key][key1]){
+//             console.log(key2)
+//             }
+//         }   
+//     }
+// }
+  
+  
+//   getkey(apartment)
+
+
+//TH2
+// function getkey(object){
+//     for(var key in object){
+//         console.log(key)
+//         if(typeof object[key] ==='object'){
+//             getkey(object[key])
+//         }
+//     }
+// }
+// getkey(apartment)
+  
+  /**
+   * Kết quả mong muốn:
+   * bedroom
+   * area
+   * bed
+   * type
+   * price
+   * Chú ý: không cần hiển thị ra đúng thứ tự như trên
+   */
+
+   
