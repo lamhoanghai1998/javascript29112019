@@ -29,6 +29,8 @@
     
 // }
 // console.log(hai.adress)
+
+
 //6- symbol
 
 //null: Khi nao gap null
@@ -43,7 +45,7 @@
 //     number: 10
     
 // }
-// console.log(hai['age'])
+// console.log(hai['number'])
 
 //keyboard shortcut
 // file-Preference-keyboard shortcuts
@@ -57,13 +59,15 @@
 // Toan tu mot ngoi: a+b, a-b, axb
 //Toan tu hai ngoi: a++, a--, ++a, --a
 //Toan tu ba ngoi: dieukien? true: false
-// var a = 5;
-// var b = 10;
+var a = 5;
+var b = 10;
 
-// //console.log(a++)
-// console.log(b)
-// console.log(a+b)
-// console.log(++a)
+console.log(b++)
+ console.log(b)
+ //console.log(a+b)
+ console.log(b)
+ console.log(b)
+
 
 //(TH3) Phuong thuc ko co return 
 // hoac return ve mot doi tuong chua khoi tao

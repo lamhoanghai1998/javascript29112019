@@ -142,15 +142,15 @@
 
 //Su dung vong lap for...of  de tinh tich cua cac phan tu trong ham
 
-// function multiply(arr){
-//     var ketqua =1
-//     for(var value of arr){
-//         ketqua *= value
-//     }
-//     return ketqua
+function multiply(arr){
+    var ketqua =1
+    for(var value of arr){
+        ketqua *= value
+    }
+    return ketqua
 
-// }
-// console.log(multiply([1,2,3]));//expected:6
+ }
+ console.log(multiply([1,2,3]));//expected:6
 
 
 
@@ -165,16 +165,16 @@
 // }
 
 
-var apartment = {
-    bedroom: {
-      area: 20,
-      bed: {
-        type: 'twin-bed',
-        price: 100
-      }
+// var apartment = {
+//     bedroom: {
+//       area: 20,
+//       bed: {
+//         type: 'twin-bed',
+//         price: 100
+//       }
     
-    }
-  };
+//     }
+//   };
   //TH1
 //   function getkey(object){
 //     for(var key in object){
