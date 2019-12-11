@@ -69,11 +69,56 @@
 // })
 // console.log(name)
 
-function findFirstEvenNumber(array){
-    return array.find(function(item){
-    if(item %2 === 0)return true
-    return false
-    })
-}
+// function findFirstEvenNumber(array){
+//     return array.find(function(item){
+//     if(item %2 === 0)return true
+//     return false
+//     })
+// }
 
-console.log(findFirstEvenNumber[1,1,1,1,1,1,1])
+// console.log(findFirstEvenNumber[1,1,1,1,1,1,1])
+
+
+//Ham reduce
+// const numbers =[1,2,3,4,5,6,7,8]
+
+// const sum =  numbers.reduce(function(total,currentValue){
+//     // console.log(total)
+//     return total + currentValue
+// },0)
+// console.log(sum)
+
+
+// const arrayUser = [
+//     {id:1, name:'Teo',age: 5},
+//     {id:2, name:'Ti',age: 3},
+//     {id:3, name:'Tun',age: 7},
+//     {id:4, name:'Tut',age: 9},
+//     {id:5, name:'Tet',age: 1},
+//]
+// TH1
+    // const sumAge = arrayUser.reduce(function(totalAge, currentAge){
+    //     return totalAge + currentAge.age
+
+    // },0)
+
+    // console.log(sumAge)
+//TH2
+    
+    // const sumAge = arrayUser.map(function(user){
+    //     return user.age;
+    // }).reduce(function(total,currentAge){
+    //     return total + currentAge;
+
+    // })
+    // console.log(sumAge)
+
+
+//Ham Sort
+const numbers =[1,2,3,4,5,6,7,8]
+
+//a - b >0, thi a dung truoc vab dung sau
+const newNumbers = numbers.sort(function(a,b){
+    return a - b  
+});
+console.log(newNumbers)

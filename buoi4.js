@@ -9,7 +9,7 @@
 
 
 //13- Array Method
-const numbers = [1,2,3,4,5]
+// const numbers = [1,2,3,4,5]
 
 // Them phan tu vao vi tri cuoi cung
 //numbers.push(6,7,8)

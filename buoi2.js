@@ -65,8 +65,7 @@ var b = 10;
 console.log(b++)
  console.log(b)
  //console.log(a+b)
- console.log(b)
- console.log(b)
+
 
 
 //(TH3) Phuong thuc ko co return 
