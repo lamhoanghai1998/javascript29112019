@@ -104,11 +104,11 @@
 
 //Cac function context va bind
 //Phan loai tu khoa this 
-var mouse ={
-    name: 'Mickey',
-    sayhi : function(){
-        console.log("hi my name is",this.name)
-    }
-}
-var say = mouse.sayhi.bind({name:'hai'}) ()
+// var mouse ={
+//     name: 'Mickey',
+//     sayhi : function(){
+//         console.log("hi my name is",this.name)
+//     }
+// }
+// var say = mouse.sayhi.bind({name:'hai'}) ()
 //say()
