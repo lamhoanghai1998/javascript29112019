@@ -55,14 +55,72 @@
 
 
 //Default parameter
-function tinhTong(a,b = 0){
-    console.log(a+b)
+// function tinhTong(a,b = 0){
+//     console.log(a+b)
+// }
+// tinhTong(10)
+
+
+
+
+// function greeting(name,age){
+//     console.log(`Hi ${name}, i am ${age}`)
+
+// }
+// greeting.call(null,'hai',10)
+
+
+//class
+// class Person{
+//     constructor(name, age){
+//         this.name = name;
+//         this.age = age
+//     }
+
+//     work(work){
+//         console.log(`${this.name} is working`)
+//     }
+// }
+
+// const teo = new Person('Teo',25)
+// teo.work()
+
+
+
+//Rest
+
+// function sum(...nums){
+//     return nums.reduce((a,b) => a + b)
+// }
+// sum(1,2,3,4,5)
+
+
+
+//Spread
+
+// const a = [1,2,3]
+
+// function sum(...numbers){
+//     console.log(numbers.join())
+// }
+// sum(...a)
+
+
+//Destructuring
+
+// const arr = [12,14,16,18]
+// const [a,b,c,d] = arr
+
+// console.log(d)
+
+
+const hai ={
+    name:'lam hoang hai',
+    age :21,
+    sayhi:function(){
+        console.log(`${this.name} say hi`)
+    }
 }
-tinhTong(10)
+const {name , age, sayhi} = hai
+console.log(name)
 
-
-function greeting(name,age){
-    console.log(`Hi ${name}, i am ${age}`)
-
-}
-greeting.call(null,'hai',10)
